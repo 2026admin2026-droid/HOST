@@ -1,0 +1,44 @@
+# ─────────────────────────────────────────────────────────────
+#  SERVER HUB — Professional Hosting Control Panel v3.0
+#  Requirements File
+# ─────────────────────────────────────────────────────────────
+
+# ── Core Web Framework ──
+Flask==2.3.3
+Werkzeug==2.3.7
+
+# ── Security & Authentication ──
+bcrypt==4.1.2
+Flask-WTF==1.1.1
+WTForms==3.0.1
+
+# ── WebSocket Terminal ──
+flask-sock==0.6.0
+
+# ── Rate Limiting ──
+flask-limiter==3.5.1
+limits==3.9.0
+
+# ── Caching ──
+flask-caching==2.1.0
+
+# ── Background Scheduling ──
+APScheduler==3.10.4
+pytz==2023.3.post1
+
+# ── System Monitoring ──
+psutil==5.9.6
+
+# ── HTTP Requests ──
+requests==2.31.0
+
+# ── Database Drivers ──
+mysql-connector-python==8.2.0
+psycopg2-binary==2.9.9
+
+# ── File Handling ──
+python-magic==0.4.27
+
+# ── Utilities ──
+python-dotenv==1.0.0
+PyYAML==6.0.1
